@@ -1,0 +1,42 @@
+# Nmap 7.92 scan initiated Sat Jun 18 09:05:34 2022 as: nmap -vv -oN init.nmap 10.10.248.153
+Nmap scan report for 10.10.248.153
+Host is up, received reset ttl 61 (0.17s latency).
+Scanned at 2022-06-18 09:05:34 PDT for 18s
+Not shown: 967 filtered tcp ports (no-response)
+PORT      STATE  SERVICE         REASON
+20/tcp    closed ftp-data        reset ttl 61
+21/tcp    open   ftp             syn-ack ttl 61
+22/tcp    open   ssh             syn-ack ttl 61
+80/tcp    open   http            syn-ack ttl 61
+990/tcp   closed ftps            reset ttl 61
+40193/tcp closed unknown         reset ttl 61
+40911/tcp closed unknown         reset ttl 61
+41511/tcp closed unknown         reset ttl 61
+42510/tcp closed caerpc          reset ttl 61
+44176/tcp closed unknown         reset ttl 61
+44442/tcp closed coldfusion-auth reset ttl 61
+44443/tcp closed coldfusion-auth reset ttl 61
+44501/tcp closed unknown         reset ttl 61
+45100/tcp closed unknown         reset ttl 61
+48080/tcp closed unknown         reset ttl 61
+49152/tcp closed unknown         reset ttl 61
+49153/tcp closed unknown         reset ttl 61
+49154/tcp closed unknown         reset ttl 61
+49155/tcp closed unknown         reset ttl 61
+49156/tcp closed unknown         reset ttl 61
+49157/tcp closed unknown         reset ttl 61
+49158/tcp closed unknown         reset ttl 61
+49159/tcp closed unknown         reset ttl 61
+49160/tcp closed unknown         reset ttl 61
+49161/tcp closed unknown         reset ttl 61
+49163/tcp closed unknown         reset ttl 61
+49165/tcp closed unknown         reset ttl 61
+49167/tcp closed unknown         reset ttl 61
+49175/tcp closed unknown         reset ttl 61
+49176/tcp closed unknown         reset ttl 61
+49400/tcp closed compaqdiag      reset ttl 61
+49999/tcp closed unknown         reset ttl 61
+50000/tcp closed ibm-db2         reset ttl 61
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Jun 18 09:05:52 2022 -- 1 IP address (1 host up) scanned in 18.26 seconds
